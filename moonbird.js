@@ -187,7 +187,6 @@ async function main() {
             expectedId,
             target,
             {
-                value: value,
                 gasLimit: 800000n,
                 maxPriorityFeePerGas: ethers.parseUnits("1", "gwei"),
                 maxFeePerGas: ethers.parseUnits("3", "gwei")
